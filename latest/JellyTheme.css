@@ -2269,7 +2269,7 @@ opacity:1
 }
 
 .layout-tv #itemDetailPage:not(.noBackdrop) .detailPagePrimaryContainer {
-height:80vh;
+height:10vh;
 margin-top: -30vh;
 }
 
