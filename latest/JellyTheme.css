@@ -2,7 +2,7 @@
 --deftraback:grey!important;
 --rounding:7px;
 }
-
+/*
 ::-moz-selection {
 background:var(--accent);
 text-shadow:none
@@ -170,7 +170,7 @@ overflow-y:auto
 .layout-tv .paper-icon-button-light.show-focus:focus {
 color:var(--accent)!important
 }
-*/
+
 .layout-desktop,.layout-tv .emby-button.detailButton.show-focus:focus {
 background: transparent !important;
 }
@@ -277,11 +277,11 @@ padding-right:.5em
 .layout-desktop .osdControls {
 max-width:100%
 }
-/*
+
 .mdl-slider::-webkit-slider-thumb {
 background:var(--accent)
 }
-*/
+
 .playedIndicator,.countIndicator {
 border-radius:0;
 box-shadow:none;
@@ -808,11 +808,11 @@ div#videoOsdPage {
 margin-top:0!important;
 overflow:hidden!important
 }
-/*
+
 .mdl-slider-background-lower {
 background-color:var(--accent)!important
 }
-*/
+
 .sliderBubble {
 background:var(--deftraback)!important;
 border-radius:10px
@@ -867,7 +867,7 @@ border-radius:var(--rounding)!important
 border:none;
 border-radius:var(--rounding)
 }
-/*
+
 .mdl-slider::-moz-range-thumb {
 border-radius:var(--rounding)
 }
@@ -889,7 +889,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 border-bottom-right-radius:var(--rounding);
 border-top-right-radius:var(--rounding)
 }
-*/
+
 .itemsContainer > .card > .cardBox {
 margin:0!important
 }
@@ -965,13 +965,13 @@ padding:0!important
 margin:0 3%;
 width:70%
 }
-/*
+
 .layout-mobile .cardOverlayButton {
 border:2px solid var(--accent);
 color:#fff!important;
 margin:0 2% 2% 0
 }
-*/
+
 .layout-mobile .cardText {
 opacity:1
 }
@@ -1114,11 +1114,11 @@ border-radius:0!important
 background:#141414;
 border-radius:100%!important
 }
-/*
+
 .cardOverlayButton[data-action="resume"] {
 border:2px solid var(--accent)
 }
-*/
+
 .cardText {
 opacity:0;
 transition:.2s
@@ -1286,7 +1286,7 @@ min-height:fit-content!important;
 padding:0 5%!important;
 width:calc(100vw - 10%)!important
 }
-/*
+
 .layout-tv #itemDetailPage:not(.noBackdrop) .detailPagePrimaryContainer,.layout-desktop #itemDetailPage:not(.noBackdrop) .detailPagePrimaryContainer {
 background:transparent;
 font-size:20px;
@@ -1323,7 +1323,7 @@ width:95vw!important;
 .layout-tv .itemMiscInfo.itemMiscInfo-primary {
     margin-top: -7vh;
 }
-*/
+
 .detailImageContainer .card {
 display:none
 }
@@ -2025,7 +2025,7 @@ position:fixed;
 top:10vh;
 width:35vw
 }
-/*
+
 .layout-tv :not(.hide) + .detailPageWrapperContainer .parentName,.layout-tv  :not(.hide) + .detailPageWrapperContainer .parentNameLast,.layout-tv  :not(.hide) + .detailPageWrapperContainer .parentName > *,.layout-tv  :not(.hide) + .detailPageWrapperContainer .parentNameLast > * {
   background: transparent;
   height: 20vh;
@@ -2036,7 +2036,7 @@ width:35vw
   margin-bottom: -6vh !important;
   font-size: 68px;
 }
-*/
+
 
 
 .layout-mobile #itemDetailPage .parentName,.layout-mobile #itemDetailPage .parentNameLast {
@@ -2109,7 +2109,7 @@ padding-bottom:1vh;
 padding-left:2vw;
 padding-right:30vw
 }
-/*
+
 .layout-tv .nextUpSection {
 background-color:#000000de;
 border-radius:34px;
@@ -2120,7 +2120,7 @@ padding-bottom:1vh;
 padding-left:2vw;
 padding-right:30vw
 }
-*/
+
 .layout-desktop div#childrenCollapsible {
 width:100%
 }
@@ -2209,7 +2209,7 @@ display:block!important
 .headerTabs.sectionTabs {
 font-size:100%!important
 }
-/*
+
 .layout-tv .emby-button.detailFloatingButton {
     margin-right: 0 !important;
     font-size: 1em !important
@@ -2223,7 +2223,7 @@ margin-top:-50vh;
 padding:10vh 2vw 2vh 30vw;
 width:44vw!important;
 }
-*/
+
 .layout-desktop .detailSection {
 background-color:#000000de;
 border-radius:105px;
@@ -2260,7 +2260,7 @@ display:none
 .cardText {
 opacity:1
 }
-/*
+
 .layout-tv #itemDetailPage:not(.noBackdrop) .detailPagePrimaryContainer {
 height:10vh;
 margin-top: -30vh;
@@ -2338,7 +2338,7 @@ color:#fff!important
 .layout-tv .itemsContainer-tv>.overflowBackdropCard {
     width: 18.5vw;
 }
-*/
+
 .layout-desktop .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
 margin-top:-5em!important;
 }
@@ -2647,3 +2647,4 @@ html:not(.layout-mobile) .detailLogo.hide {
 html:not(.layout-mobile) .verticalSection[data-type="Movie"] {
     margin-top: -33vh;
 }
+*/
