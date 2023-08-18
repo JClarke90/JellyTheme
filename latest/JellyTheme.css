@@ -59,7 +59,7 @@ text-shadow:none
 overflow-x:hidden;
 overflow-y:auto
 }
-
+/*
 .layout-tv .homeLibraryButton:focus,
 .layout-tv .card:focus {
   transform: none !important;
@@ -170,7 +170,7 @@ overflow-y:auto
 .layout-tv .paper-icon-button-light.show-focus:focus {
 color:var(--accent)!important
 }
-
+*/
 .layout-desktop,.layout-tv .emby-button.detailButton.show-focus:focus {
 background: transparent !important;
 }
