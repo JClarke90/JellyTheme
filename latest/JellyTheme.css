@@ -1286,7 +1286,7 @@ min-height:fit-content!important;
 padding:0 5%!important;
 width:calc(100vw - 10%)!important
 }
-
+/*
 .layout-tv #itemDetailPage:not(.noBackdrop) .detailPagePrimaryContainer,.layout-desktop #itemDetailPage:not(.noBackdrop) .detailPagePrimaryContainer {
 background:transparent;
 font-size:20px;
@@ -1323,7 +1323,7 @@ width:95vw!important;
 .layout-tv .itemMiscInfo.itemMiscInfo-primary {
     margin-top: -7vh;
 }
-
+*/
 .detailImageContainer .card {
 display:none
 }
@@ -2028,7 +2028,7 @@ position:fixed;
 top:10vh;
 width:35vw
 }
-
+/*
 .layout-tv :not(.hide) + .detailPageWrapperContainer .parentName,.layout-tv  :not(.hide) + .detailPageWrapperContainer .parentNameLast,.layout-tv  :not(.hide) + .detailPageWrapperContainer .parentName > *,.layout-tv  :not(.hide) + .detailPageWrapperContainer .parentNameLast > * {
   background: transparent;
   height: 20vh;
@@ -2039,7 +2039,7 @@ width:35vw
   margin-bottom: -6vh !important;
   font-size: 68px;
 }
-
+*/
 
 
 .layout-mobile #itemDetailPage .parentName,.layout-mobile #itemDetailPage .parentNameLast {
@@ -2112,7 +2112,7 @@ padding-bottom:1vh;
 padding-left:2vw;
 padding-right:30vw
 }
-
+/*
 .layout-tv .nextUpSection {
 background-color:#000000de;
 border-radius:34px;
@@ -2123,7 +2123,7 @@ padding-bottom:1vh;
 padding-left:2vw;
 padding-right:30vw
 }
-
+*/
 .layout-desktop div#childrenCollapsible {
 width:100%
 }
@@ -2212,7 +2212,7 @@ display:block!important
 .headerTabs.sectionTabs {
 font-size:100%!important
 }
-
+/*
 .layout-tv .emby-button.detailFloatingButton {
     margin-right: 0 !important;
     font-size: 1em !important
@@ -2226,7 +2226,7 @@ margin-top:-50vh;
 padding:10vh 2vw 2vh 30vw;
 width:44vw!important;
 }
-
+*/
 .layout-desktop .detailSection {
 background-color:#000000de;
 border-radius:105px;
@@ -2263,7 +2263,7 @@ display:none
 .cardText {
 opacity:1
 }
-
+/*
 .layout-tv #itemDetailPage:not(.noBackdrop) .detailPagePrimaryContainer {
 height:10vh;
 margin-top: -30vh;
@@ -2341,7 +2341,7 @@ color:#fff!important
 .layout-tv .itemsContainer-tv>.overflowBackdropCard {
     width: 18.5vw;
 }
-
+*/
 .layout-desktop .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
 margin-top:-5em!important;
 }
