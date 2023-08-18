@@ -2500,7 +2500,7 @@ margin-top:-1vh;
 
 
 .layout-desktop .detailPagePrimaryContent {
-margin-bottom:1em!important;
+display:none;
 }
 
 div#castCollapsible {
