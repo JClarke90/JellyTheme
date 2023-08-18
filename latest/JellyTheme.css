@@ -319,20 +319,12 @@ display:none
 
 .detailPageSecondaryContainer {
 background:transparent;
+margin-top:50px !important;
 margin:0!important
 }
 
 .detailPagePrimaryContent {
-background:transparent;
-font-size:1.3em;
-height:-webkit-fit-content;
-height:-moz-fit-content;
-height:fit-content;
-min-height:70vh;
-padding:0!important;
-position:relative;
-text-shadow:1px 1px 5px #141414;
-width:60vw
+display:none;
 }
 
 .layout-mobile .infoWrapper {
@@ -2582,7 +2574,7 @@ margin:0 -1.4em 0 0;
 }
 
 .layout-desktop .mainDetailButtons {
-margin-left:0!important;
+margin-left:20px!important;
 }
 
 .detailButton-icon {
@@ -2594,10 +2586,6 @@ width:1em;
 
 span.material-icons.detailButton-icon.play_arrow {
 color:var(--accent)!important;
-}
-
-.layout-desktop span.material-icons.detailButton-icon.play_arrow {
-    font-size:2.8em!important;
 }
 
 .layout-mobile span.material-icons.detailButton-icon.play_arrow {
