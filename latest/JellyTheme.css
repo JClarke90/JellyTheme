@@ -277,11 +277,11 @@ padding-right:.5em
 .layout-desktop .osdControls {
 max-width:100%
 }
-
+/*
 .mdl-slider::-webkit-slider-thumb {
 background:var(--accent)
 }
-
+*/
 .playedIndicator,.countIndicator {
 border-radius:0;
 box-shadow:none;
@@ -808,11 +808,11 @@ div#videoOsdPage {
 margin-top:0!important;
 overflow:hidden!important
 }
-
+/*
 .mdl-slider-background-lower {
 background-color:var(--accent)!important
 }
-
+*/
 .sliderBubble {
 background:var(--deftraback)!important;
 border-radius:10px
@@ -965,13 +965,13 @@ padding:0!important
 margin:0 3%;
 width:70%
 }
-
+/*
 .layout-mobile .cardOverlayButton {
 border:2px solid var(--accent);
 color:#fff!important;
 margin:0 2% 2% 0
 }
-
+*/
 .layout-mobile .cardText {
 opacity:1
 }
@@ -1114,11 +1114,11 @@ border-radius:0!important
 background:#141414;
 border-radius:100%!important
 }
-
+/*
 .cardOverlayButton[data-action="resume"] {
 border:2px solid var(--accent)
 }
-
+*/
 .cardText {
 opacity:0;
 transition:.2s
@@ -1470,8 +1470,6 @@ height:4px;
 left:1em;
 position:absolute;
 right:1em;
-transform:scaleX(0);
-transition:.2s;
 width:calc(100% - 2em)
 }
 
@@ -1807,7 +1805,6 @@ background:#141414
 .listItemImageButton.itemAction.paper-icon-button-light {
 color:var(--accent);
 opacity:0;
-transition:all .2s
 }
 
 .layout-mobile .listItemImageButton.itemAction.paper-icon-button-light {
