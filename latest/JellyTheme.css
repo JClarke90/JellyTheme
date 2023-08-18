@@ -327,6 +327,10 @@ margin:0!important
 display:none;
 }
 
+.layout-tv .detailPagePrimaryContent {
+display:none;
+}
+
 .layout-mobile .infoWrapper {
     padding-left: 3%;
 }
@@ -1977,10 +1981,6 @@ width:auto
 div#itemDetailPage {
 display:flex;
 flex-direction:column
-}
-
-.detailPagePrimaryContent {
-min-height:60vh!important
 }
 
 .layout-mobile .detailRibbon {
