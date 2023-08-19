@@ -2,7 +2,7 @@
 --deftraback:grey!important;
 --rounding:7px;
 }
-/*
+
 ::-moz-selection {
 background:var(--accent);
 text-shadow:none
@@ -1323,7 +1323,7 @@ width:95vw!important;
 .layout-tv .itemMiscInfo.itemMiscInfo-primary {
     margin-top: -7vh;
 }
-*/
+/*
 .detailImageContainer .card {
 display:none
 }
@@ -2647,4 +2647,4 @@ html:not(.layout-mobile) .detailLogo.hide {
 html:not(.layout-mobile) .verticalSection[data-type="Movie"] {
     margin-top: -33vh;
 }
-
+*/
